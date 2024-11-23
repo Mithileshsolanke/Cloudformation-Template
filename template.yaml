@@ -45,7 +45,7 @@ Resources:
     Properties:
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyName
-      ImageId: ami-0c88d723eafb9084a  # Use the correct AMI ID for your region
+      ImageId: ami-0614680123427b75e  # Use the correct AMI ID for your region
       UserData:
         Fn::Base64: !Sub |
           #!/bin/bash
